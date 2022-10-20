@@ -96,16 +96,16 @@
         background-color: transparent;
         height: 60%;
         width: 60%;
-        border-radius: 50%;
+        border-radius: 0px;
         margin: 20px;
         transition: 0.3s linear;
         cursor: pointer;
     }
 
-    .furniture-image:hover{
+/*     .furniture-image:hover{
         transform: scale(1.1);
         transition: 0.3s linear;
-    }
+    } */
     
     .furniture-name{
         display: block;
