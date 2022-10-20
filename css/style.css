@@ -1,0 +1,305 @@
+/* tablet or mobile */
+@media (max-width: 981px) {
+
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    
+    .wrapper{
+        background: url("../imgs/hadi-yazdi-aznaveh-FoTZazW3WxY-unsplash.jpg") no-repeat center;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+    
+    nav{
+        display: none;
+    }
+    .nav-mobile{
+        background-color: rgba(0, 0, 0, 0.322);
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-mobile-menu{
+        display: inline-block;
+    }
+
+    .mobile-nav-note{
+        display: inline-block;
+        background-color: transparent;
+        margin-top: 20vh;
+        margin-left: 5%;
+        font-family: sans-serif;
+        font-weight: bolder;
+        color: #abd8e0;
+        text-shadow: 10px 1px 10px rgba(0, 0, 0, 0.616);
+        font-size: 8vw;
+        text-transform: uppercase;
+    }
+    
+    .who-section{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 70px 50px;
+    }
+    
+    .who-note{
+        padding-left: 100px;
+        padding-right: 20px;
+        font-family: sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .who-more{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(165, 165, 165);
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        margin-top: 200px;
+        margin-left: -200px;
+        position: absolute;
+    }
+    
+    .who-container{
+        background-color: transparent;
+        height: 50vh;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.3s linear;
+        padding-bottom: 30px;
+    }
+    
+/*     .who-container-hover:hover{
+        background-color: rgb(226, 226, 226);
+        transition: 0.3s linear;
+        cursor: pointer;
+    } */
+    
+    
+    .furniture-image{
+        display: block;
+        background-color: transparent;
+        height: 60%;
+        width: 60%;
+        border-radius: 50%;
+        margin: 20px;
+        transition: 0.3s linear;
+        cursor: pointer;
+    }
+
+    .furniture-image:hover{
+        transform: scale(1.1);
+        transition: 0.3s linear;
+    }
+    
+    .furniture-name{
+        display: block;
+        width: 50%;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    .furniture-price{
+        margin-top: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pc */
+@media (min-width: 981px) {
+
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    
+    .wrapper{
+        background: url("../imgs/hadi-yazdi-aznaveh-FoTZazW3WxY-unsplash.jpg") no-repeat center;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+    .nav-mobile{
+        display: none;
+    }
+    
+    .mobile-nav-note{
+        display: none;
+    }
+
+    .nav-pc{
+        display: flex;
+        flex-direction: row;
+        padding: 4% 5%;
+    }
+    
+    .logo-container{
+        width: 10%;
+    }
+    
+    .nav-logo{
+    
+    }
+    
+    .nav-note-section{
+        width: 200px;
+    }
+    
+    .nav{
+        width: 100%;
+        text-align: right;
+    }
+    
+    .nav-note{
+        font-size: 20px;
+        word-wrap: break-word;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: white;line-height: 35px;
+        text-transform: capitalize;
+    }
+    
+    .nav-link{
+        text-transform: capitalize;
+        margin: 0px 10px;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: white;
+        transition: 0.3s linear;
+    }
+    
+    .nav-link:hover{
+        color: rgb(94, 94, 94);
+        transition: 0.3s linear;
+    }
+    
+    .nav-link-active{
+        color: rgb(245, 219, 186);
+    }
+    
+    .nav-btn{
+        text-decoration: none;
+        text-transform: capitalize;
+        background-color: rgba(0, 0, 0, 0.356);
+        color: white;
+        font-family: sans-serif;
+        font-size: 13px;
+        padding: 5px 15px;
+        border-radius: 10px;
+    }
+    
+    .nav-btn:hover{
+        color: rgb(245, 219, 186);
+        transition: 0.3s linear;
+    }
+    
+    
+    .who-section{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 70px 50px;
+    }
+    
+    .who-note{
+        padding-left: 100px;
+        padding-right: 20px;
+        font-family: sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .who-more{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(165, 165, 165);
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        margin-top: 200px;
+        margin-left: -200px;
+        position: absolute;
+    }
+    
+    .who-container{
+        background-color: transparent;
+        height: 50vh;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.3s linear;
+        padding-bottom: 30px;
+    }
+    
+/*     .who-container-hover:hover{
+        background-color: rgb(226, 226, 226);
+        transition: 0.3s linear;
+        cursor: pointer;
+    } */
+    
+    .furniture-image{
+        display: block;
+        background-color: transparent;
+        height: 60%;
+        width: 60%;
+        border-radius: 50%;
+        margin: 20px;
+        transition: 0.3s linear;
+        cursor: pointer;
+    }
+
+    .furniture-image:hover{
+        transform: scale(1.1);
+        transition: 0.3s linear;
+    }
+    
+    .furniture-name{
+        display: block;
+        width: 50%;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    .furniture-price{
+        margin-top: 16px;
+    }
+}
+
+
