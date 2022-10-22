@@ -117,6 +117,71 @@
     .furniture-price{
         margin-top: 16px;
     }
+
+    
+    .board-show{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;        
+        background-color: transparent;
+        height: 260px;
+    }
+
+    .board-a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+        height: 100%;
+        width: 33.1%;
+    }
+
+    .board-b{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+        height: 100%;
+        width: 33.1%;
+    }
+
+    .board-c{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+        height: 100%;
+        width: 33%;
+    }
+
+    .board-small-heading{
+        display: block;
+        text-transform: uppercase;
+        font-family: cursive;
+        font-style: italic;
+        font-size: 8px;
+        letter-spacing: 3px;
+        color: white;
+    }
+    
+    .board-title{
+        display: block;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        padding: 10px 0px;
+    }
+    
+    .board-subtitle{
+        display: block;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+    }
 }
 
 
@@ -228,11 +293,12 @@
     
     
     .who-section{
-        background-color: white;
+        background-color: rgb(190, 190, 190);
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         padding: 70px 50px;
+        padding-bottom: 1px;
     }
     
     .who-note{
@@ -299,6 +365,70 @@
     
     .furniture-price{
         margin-top: 16px;
+    }
+
+    .board-show{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;        
+        background-color: transparent;
+        height: 260px;
+    }
+
+    .board-a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+        height: 100%;
+        width: 33.1%;
+    }
+
+    .board-b{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+        height: 100%;
+        width: 33.1%;
+    }
+
+    .board-c{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+        height: 100%;
+        width: 33%;
+    }
+
+    .board-small-heading{
+        display: block;
+        text-transform: uppercase;
+        font-family: cursive;
+        font-style: italic;
+        font-size: 8px;
+        letter-spacing: 3px;
+        color: white;
+    }
+    
+    .board-title{
+        display: block;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        padding: 10px 0px;
+    }
+    
+    .board-subtitle{
+        display: block;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
     }
 }
 
