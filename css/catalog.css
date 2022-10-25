@@ -1,3 +1,6 @@
+@import url("./fonts.css");
+
+
 body{
     margin: 0px;
     padding: 0px;
@@ -64,11 +67,20 @@ background-color: white;
 } */
 
 .catalog-filter-type-item-thumbnail{
-    background-color: aqua;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 80px;
     width: 80px;
     margin-bottom: 10px;
     cursor: pointer;
+}
+
+.catalog-filter-type-item-thumbnail{
+    font-size: 25px;
+    color: grey;
 }
 
 .catalog-filter-type-item-title{
@@ -173,6 +185,13 @@ background-color: white;
     padding-bottom: 20px;
     padding-top: 20px;
     cursor: pointer;
+    transition: 0.3s linear;
+
+}
+
+.catalog-product-item:hover{
+    background-color: rgba(211, 211, 211, 0.363);
+    transition: 0.3s linear;
 }
 
 .catalog-product-item-thumbnail{

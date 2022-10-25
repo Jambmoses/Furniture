@@ -9,7 +9,7 @@
 </head>
 <body>
     <section class="login-wrapper">
-        <div class="login-thumb-section">
+        <div class="login-thumb-section" style="background: url('./imgs/wall1.jpg');background-position: center;background-size: cover;background-repeat: no-repeat;">
             <nav class="login-thumb-nav">
                 <a class="login-thumb-nav-link" href="./index.html">home</a>
                 <a class="login-thumb-nav-link" href="./signup.html">signup</a>
@@ -20,11 +20,11 @@
         </div>
 
         <div class="login-section">
-            <form action="" method="post">
+            <form action="./dashboard.html" method="post">
                 <div class="heading">log in</div>
-                <span class="login-input"><input type="email" placeholder="email" name="" id=""></span>
-                <span class="login-input"><input type="text" placeholder="password" name="" id=""></span>
-                <span class="login-remember"><input type="checkbox" name="" id=""> <span class="logon-keep-logged-in">keep me logged in</span></span>
+                <span class="login-input"><input type="email" placeholder="Email" name="email" id="" required></span>
+                <span class="login-input"><input type="password" placeholder="Password" name="password" id="" required></span>
+                <span class="login-remember"><input type="checkbox" name="rememberme" id=""> <span class="logon-keep-logged-in">keep me logged in</span></span>
                 <button class="login-btn" type="submit">log in</button>
                 <a href="#" class="login-forgot">forgot password !</a>
             </form>
