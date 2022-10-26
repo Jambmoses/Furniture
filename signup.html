@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/login.css">
+    <script src="./jquery/jQuery v3.4.1.js"></script>
 </head>
 <body>
     <section class="login-wrapper">
         <div class="login-title">
-            <h1>sign up</h1>
+            <h1 id="signup-title">sign up</h1>
         </div>
         <div class="login-thumb-section" style="background: url('./imgs/wall1.jpg');background-position: center;background-size: cover;background-repeat: no-repeat;">
             <nav class="login-thumb-nav">
@@ -33,13 +34,13 @@
                         <option value="">female</option>
                     </select>
                 <span class="login-input"><input style="border: 0px solid transparent;" type="date" placeholder="date of birth" name="" id=""></span>
-                <span style="width: 100%; display: flex;flex-direction: row;justify-content: space-between;margin-top: 20px;">
+<!--                 <span style="width: 100%; display: flex;flex-direction: row;justify-content: space-between;margin-top: 20px;">
                     <select name="" id="" style="height: 20px;outline: none; color: grey; background-color: lightgray;outline: none; border: 0px solid transparent;">
                         <option value="">ug</option>
                         <option value="">kyn</option>
                     </select>
                     <span style="display: inline-block;"><input style="height: 16px; outline: none; color: grey; width: 230px; border: 1px solid rgba(128, 128, 128, 0.521);padding-left: 20px;" type="text" placeholder="phone" name="" id=""></span>
-                </span>
+                </span> -->
                 <span class="login-input"><input type="email" placeholder="email" name="" id=""></span>
 
                 <span class="login-input">
@@ -62,4 +63,8 @@
         </div>
     </section>
 </body>
+<script src="./jquery/jQuery v3.4.1.js"></script>
+<script>
+    $('#signup-title').slideUp("slow").slideDown("slow");
+</script>
 </html>

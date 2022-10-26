@@ -1,0 +1,177 @@
+*{
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.contact-navigation{
+    background-color: transparent;
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-navigation-home{
+    padding-top: 20px;
+}
+
+.contact-navigation-home a{
+    text-decoration: none;
+    color: grey;
+}
+
+.contact-navigation-home a i{
+    font-size: 20px;
+    color: grey;
+}
+
+.contact-navigation-back{
+    padding-bottom: 20px;
+}
+
+.contact-navigation-back i{
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+}
+
+.contact-navigation-context-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    width: 100vw;
+    height: 80%;
+    margin-top: 5%;
+}
+
+
+
+.contact-navigation-context-section-info{
+    background-color: black;
+    width: 50%;
+    color: white;
+}
+
+.contact-navigation-context-section-info-heading{
+    padding: 50px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.contact-navigation-context-section-info-hold{
+    padding: 5% 50px;
+}
+
+.contact-navigation-context-section-info-contain{
+    display: block;
+}
+
+.contact-navigation-context-section-info-contain i{
+    font-size: 20px;
+    color: grey;
+}
+
+.contact-navigation-context-section-info-contain span{
+    font-size: 15px;
+    padding-left: 20px;
+    color: grey;
+}
+
+.contact-navigation-context-section-contact{
+    width: 50%;
+}
+
+.contact-navigation-context-section-contact form{
+    margin-left: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contact-navigation-context-section-contact-heading{
+    text-transform: capitalize;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.contact-navigation-context-section-contact-note{
+    display: block;
+    width: 250px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    color: grey;
+}
+
+.contact-navigation-context-section-contact-input-cont{
+    margin-top: 5%;
+}
+
+.contact-navigation-context-section-contact-input-cont input{
+    outline: none;
+    height: 30px;
+    width: 80%;
+    padding-left: 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.555);
+}
+
+
+.contact-navigation-context-section-contact-input-cont-btn{
+    margin-top: 10%;
+}
+
+.contact-navigation-context-section-contact-input-cont-btn input{
+    outline: none;
+    border: 0px solid transparent;
+    background-color: black;
+    color: grey;
+    width: 80%;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.contact-socials-section{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: olive;
+    width: 10%;
+    padding-bottom: 25px;
+}
+
+.contact-socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.contact-socials span i{
+    cursor: pointer;
+    color: white;
+}
+
+

@@ -1,0 +1,129 @@
+
+.newsletters{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.newsletters-note{
+    width: 300px;
+    padding: 0px 10%;
+    padding-top: 30px;
+}
+
+.newsletters-note h3{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: grey;
+    font-family: sans-serif;
+}
+
+.newsletters-note span{
+    line-height: 20px;
+    font-size: 13px;
+    color: grey;
+    font-family: sans-serif;
+}
+
+.newsletters-subscribers{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: transparent;
+    width: 50%;
+}
+
+.newsletters-subscribers form{
+    width: 100%;
+}
+
+.newsletters-subscribers form input{
+    outline: transparent;
+    background-color: transparent;
+    color: inherit;
+    border: 1px solid grey;
+    width: 50%;
+    height: 30px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+
+.newsletters-subscribers form button{
+    outline: transparent;
+    background-color: rgb(100, 100, 100);
+    border: 0px solid transparent;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.footer-shortcut{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 30px 5%;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+
+.footer-shortcut-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    background-color: transparent;
+    width: 400px;
+}
+
+.footer-shortcut-item-title{
+    display: block;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px 0px;
+}
+
+.footer-shortcut-item-subtitle{
+    display: block;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px 0px;
+    color: rgb(77, 77, 77);
+}
+
+.footer-shortcut-item-link{
+    display: block;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    text-align: left;
+    margin: 10px 0px;
+    color: grey;
+}
+
+.footer-bottom-copyright{
+    background-color: white;
+    color: grey;
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-family: sans-serif;
+}

@@ -1,0 +1,132 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    font-weight: initial;
+    font-family: sans-serif;
+}
+
+.about-section{
+
+}
+
+.about-section-top-heads{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-section-top-heads-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 10%;
+    height: 200px;
+}
+
+.about-section-top-heads-head h2{
+    text-transform: capitalize;
+    font-size: 40px;
+    color: grey;
+    font-family: sans-serif;
+}
+
+.about-section-top-heads-head-context{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 200px;
+    padding-right: 200px;
+    line-height: 20px;
+    color: rgb(46, 46, 46);
+    font-family: sans-serif;
+}
+
+.about-section-top-heads-head-context span{
+    font-family: sans-serif;
+    padding-left: 50px;
+}
+
+.about-section-mixx{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about-section-mixx-give-backs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.about-section-mixx-give-backs-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+    background-color: antiquewhite;
+    width: 50%;
+    height:600px;
+}
+
+.about-section-mixx-give-backs-head span{
+    font-family: monospace;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 40px;
+    letter-spacing: 5px;
+    width: 60%;
+    color: darkslategray;
+
+}
+
+.about-section-mixx-give-backs-context{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 50px;
+}
+
+.about-section-mixx-give-backs-context h2{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: darkslategray;
+    font-family: sans-serif;
+}
+
+.about-section-mixx-give-backs-context span{
+    padding-right: 200px;
+    line-height: 20px;
+    color: rgb(46, 46, 46);
+    font-family: sans-serif;
+}
+
+.about-section-mixx-give-extra{
+    position: absolute;
+    background: url('../imgs/wall1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 250px;
+}
+
+.about-section-mixx-give-extra span{
+    display: block;
+    width: 300px;
+    margin: 100px;
+    line-height: 20px;
+    color: rgb(46, 46, 46);
+    font-family: sans-serif;
+}
