@@ -27,19 +27,35 @@
             <div class="nav-mobile-menu" style="background-color: transparent;margin-right: 3%; width: 40px;height: 40px;margin-top: 5px;border-radius: 10px; display: flex;flex-direction: column;justify-content: center;align-items: center;"><i class="fa fa-bars"></i></div>
         </div>
 
+        <div class="nav-top-search">
+            <form action="" method="post">
+                <span>
+                    <input type="search" name="search" placeholder="Search For Cough" id=""/>
+                    <button><i class="fa fa-search"></i></button>
+                </span>
+            </form>
+            <div>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+
         <nav class="nav-pc" style="background-color: transparent;padding: 20px 3%;">
-            <div class="logo-container">
+            <div class="logo-container" style="margin: 1px 0px;">
                 <span class="catalog-title" style="text-transform: capitalize; background-color: rgba(211, 211, 211, 0.158);display: flex;flex-direction: column;justify-content: center;align-items: center; height: 50px;width: 50px; border-radius: 50%;padding: 0px;">fog</span>
             </div>
             
-            <div class="nav">
+            <div class="nav" style="padding-top: 15px;">
                 <a href="./index.html" class="nav-link">home</a>
                 <a href="./about.html" class="nav-link">about us</a>
                 <a href="./catalog.html" class="nav-link nav-link-active">furniture</a>
                 <!-- <a href="" class="nav-link">blog</a> -->
                 <a href="./contact.html" class="nav-link">contact us</a>
-                <a href="./login.html" class="nav-btn" style="border-radius: 1px;">login</a>
+                <a href="./login.html" class="nav-btn" style="border-radius: 1px; color: rgb(173, 247, 247);">login</a>
                 <a href="./signup.html" class="nav-btn" style="border-radius: 1px; color: rgb(173, 247, 247);">signup</a>
+                <a href="./cart.html" style="color: grey; font-size: 13px;margin-left: 10px;"><i class="fa fa-shopping-cart"><sup style="color: white;font-size: 11px; font-weight: 500; padding-left: 5px; font-family: sans-serif;">10</sup></i></a>
             </div>
         </nav>
     </section>
@@ -53,7 +69,7 @@
         </div>
     </section>
 
-    <section class="catalog-filter-type-section">
+<!--     <section class="catalog-filter-type-section">
         <div class="catalog-filter-type-item">
             <div class="catalog-filter-type-item-thumbnail"><i class="fa fa-chair"></i></div>
             <div class="catalog-filter-type-item-title">tables, nightstands</div>
@@ -78,9 +94,9 @@
             <div class="catalog-filter-type-item-thumbnail"><i class="fa fa-person-seat"></i></div>
             <div class="catalog-filter-type-item-title">tables, nightstands</div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="catalog-filter-section">
+<!--     <section class="catalog-filter-section">
         <div class="catalog-filter-sec">
             <input type="checkbox" name="" id="">
             <span style="padding-top: 2px;">chairs</span>
@@ -108,14 +124,14 @@
             </span>
             <span>$ 9.700</span>
         </div>
-    </section>
+    </section> -->
 
     <section class="catalog-sort-section">
         <div class="catalog-sort-heading">
             <span>lounge chairs</span>
         </div>
 
-        <div class="catalog-sorting">
+<!--         <div class="catalog-sorting">
             <span class="catalog-sorting-item">Sort by:</span>
             <span class="catalog-sorting-item">
                 <select name="sortby">
@@ -128,104 +144,293 @@
                     <option value="name">Price</option>
                 </select>
             </span>
-        </div>
+        </div> -->
     </section>
 
-    <section class="catalog-products">
-        <div class="catalog-product-item">
-            <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/engin-akyurt-bbbKzTmY2Gg-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
-            <div class="catalog-product-item-title">lounge chair</div>
-            <div class="catalog-product-item-price">$5.178</div>
-        </div>
+    <!-- main -->
+    <section class="catalog-products" style="padding-top: 50px;">
+        <a href="./cataloglist.html" style="text-decoration: none;">
+            <div class="catalog-product-item">
+                <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/engin-akyurt-bbbKzTmY2Gg-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
+                <div class="catalog-product-item-title">lounge chair</div>
+                <div class="catalog-product-item-price">$5.178</div>
+            </div>
+        </a>
 
-        <div class="catalog-product-item">
-            <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/eugene-chystiakov-3neSwyntbQ8-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
-            <div class="catalog-product-item-title">lounge chair</div>
-            <div class="catalog-product-item-price">$5.178</div>
-        </div>
+        <a href="./cataloglist.html" style="text-decoration: none;">
+            <div class="catalog-product-item">
+                <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/eugene-chystiakov-3neSwyntbQ8-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
+                <div class="catalog-product-item-title">lounge chair</div>
+                <div class="catalog-product-item-price">$5.178</div>
+            </div>
+        </a>
 
+        <a href="./cataloglist.html" style="text-decoration: none;">
         <div class="catalog-product-item">
             <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/hal-gatewood-Vfml26Iy4mI-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
             <div class="catalog-product-item-title">lounge chair</div>
             <div class="catalog-product-item-price">$5.178</div>
         </div>
+        </a>
+
+
+        <a href="./cataloglist.html" style="text-decoration: none;">
         <div class="catalog-product-item">
             <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
             <div class="catalog-product-item-title">lounge chair</div>
             <div class="catalog-product-item-price">$5.178</div>
         </div>
+        </a>
 
+
+        <a href="./cataloglist.html" style="text-decoration: none;">
         <div class="catalog-product-item">
             <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/sam-moghadam-khamseh-ofxbaFNFNmo-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
             <div class="catalog-product-item-title">lounge chair</div>
             <div class="catalog-product-item-price">$5.178</div>
         </div>
+        </a>
 
+        
+        <a href="./cataloglist.html" style="text-decoration: none;">
         <div class="catalog-product-item">
             <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/engin-akyurt-bbbKzTmY2Gg-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
             <div class="catalog-product-item-title">lounge chair</div>
             <div class="catalog-product-item-price">$5.178</div>
         </div>
+        </a>
 
+        <a href="./cataloglist.html" style="text-decoration: none;">
         <div class="catalog-product-item">
             <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/eugene-chystiakov-3neSwyntbQ8-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
             <div class="catalog-product-item-title">lounge chair</div>
             <div class="catalog-product-item-price">$5.178</div>
         </div>
+        </a>
 
+        <a href="./cataloglist.html" style="text-decoration: none;">
         <div class="catalog-product-item">
             <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/hal-gatewood-Vfml26Iy4mI-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
             <div class="catalog-product-item-title">lounge chair</div>
             <div class="catalog-product-item-price">$5.178</div>
         </div>
+        </a>
+
+        <a href="./cataloglist.html" style="text-decoration: none;">
         <div class="catalog-product-item">
             <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
             <div class="catalog-product-item-title">lounge chair</div>
             <div class="catalog-product-item-price">$5.178</div>
         </div>
+        </a>
 
+        <a href="./cataloglist.html" style="text-decoration: none;">
         <div class="catalog-product-item">
             <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/sam-moghadam-khamseh-ofxbaFNFNmo-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
             <div class="catalog-product-item-title">lounge chair</div>
             <div class="catalog-product-item-price">$5.178</div>
         </div>
+        </a>
 
+        <a href="./cataloglist.html" style="text-decoration: none;">
         <div class="catalog-product-item">
             <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/engin-akyurt-bbbKzTmY2Gg-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
             <div class="catalog-product-item-title">lounge chair</div>
             <div class="catalog-product-item-price">$5.178</div>
         </div>
+        </a>
 
+        <a href="./cataloglist.html" style="text-decoration: none;">
         <div class="catalog-product-item">
             <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/eugene-chystiakov-3neSwyntbQ8-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
             <div class="catalog-product-item-title">lounge chair</div>
             <div class="catalog-product-item-price">$5.178</div>
         </div>
+        </a>
 
+        <a href="./cataloglist.html" style="text-decoration: none;">
         <div class="catalog-product-item">
             <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/hal-gatewood-Vfml26Iy4mI-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
             <div class="catalog-product-item-title">lounge chair</div>
             <div class="catalog-product-item-price">$5.178</div>
         </div>
+        </a>
+
+        <a href="./cataloglist.html" style="text-decoration: none;">
         <div class="catalog-product-item">
             <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
             <div class="catalog-product-item-title">lounge chair</div>
             <div class="catalog-product-item-price">$5.178</div>
         </div>
+        </a>
 
+        <a href="./cataloglist.html" style="text-decoration: none;">
         <div class="catalog-product-item">
             <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/sam-moghadam-khamseh-ofxbaFNFNmo-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
             <div class="catalog-product-item-title">lounge chair</div>
             <div class="catalog-product-item-price">$5.178</div>
         </div>
+        </a>
+
 
     </section>
             <!-- more btn -->
-            <div style="margin-top: 50px; text-align: left;padding-left: 5%; cursor: pointer;">
+            <div style="margin-top: 10px; text-align: right; padding-right: 5%; cursor: pointer;">
                 <a style="text-decoration: none; display: inline-block; border: 1px solid silver;padding: 5px 10px;border-radius: 5px; background-color: white;color: grey;text-transform: lowercase;font-size: 13px;font-family: sans-serif;">see more</a>
             </div>
 
 
+    <section class="catalog-sort-section">
+        <div class="catalog-sort-heading">
+            <span>seating room chairs</span>
+        </div>
+
+<!--         <div class="catalog-sorting">
+            <span class="catalog-sorting-item">Sort by:</span>
+            <span class="catalog-sorting-item">
+                <select name="sortby">
+                    <option value="name">Name</option>
+                </select>
+            </span>
+            <span class="catalog-sorting-item">Popularity</span>
+            <span class="catalog-sorting-item">
+                <select name="sortby">
+                    <option value="name">Price</option>
+                </select>
+            </span>
+        </div> -->
+    </section>
+
+    <!-- main -->
+    <section class="catalog-products" style="padding-top: 50px;">
+        <a href="./cataloglist.html" style="text-decoration: none;">
+            <div class="catalog-product-item">
+                <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/engin-akyurt-bbbKzTmY2Gg-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
+                <div class="catalog-product-item-title">lounge chair</div>
+                <div class="catalog-product-item-price">$5.178</div>
+            </div>
+        </a>
+
+        <a href="./cataloglist.html" style="text-decoration: none;">
+            <div class="catalog-product-item">
+                <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/eugene-chystiakov-3neSwyntbQ8-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
+                <div class="catalog-product-item-title">lounge chair</div>
+                <div class="catalog-product-item-price">$5.178</div>
+            </div>
+        </a>
+
+        <a href="./cataloglist.html" style="text-decoration: none;">
+        <div class="catalog-product-item">
+            <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/hal-gatewood-Vfml26Iy4mI-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
+            <div class="catalog-product-item-title">lounge chair</div>
+            <div class="catalog-product-item-price">$5.178</div>
+        </div>
+        </a>
+
+
+        <a href="./cataloglist.html" style="text-decoration: none;">
+        <div class="catalog-product-item">
+            <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
+            <div class="catalog-product-item-title">lounge chair</div>
+            <div class="catalog-product-item-price">$5.178</div>
+        </div>
+        </a>
+
+
+        <a href="./cataloglist.html" style="text-decoration: none;">
+        <div class="catalog-product-item">
+            <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/sam-moghadam-khamseh-ofxbaFNFNmo-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
+            <div class="catalog-product-item-title">lounge chair</div>
+            <div class="catalog-product-item-price">$5.178</div>
+        </div>
+        </a>
+
+        
+        <a href="./cataloglist.html" style="text-decoration: none;">
+        <div class="catalog-product-item">
+            <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/engin-akyurt-bbbKzTmY2Gg-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
+            <div class="catalog-product-item-title">lounge chair</div>
+            <div class="catalog-product-item-price">$5.178</div>
+        </div>
+        </a>
+
+        <a href="./cataloglist.html" style="text-decoration: none;">
+        <div class="catalog-product-item">
+            <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/eugene-chystiakov-3neSwyntbQ8-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
+            <div class="catalog-product-item-title">lounge chair</div>
+            <div class="catalog-product-item-price">$5.178</div>
+        </div>
+        </a>
+
+        <a href="./cataloglist.html" style="text-decoration: none;">
+        <div class="catalog-product-item">
+            <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/hal-gatewood-Vfml26Iy4mI-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
+            <div class="catalog-product-item-title">lounge chair</div>
+            <div class="catalog-product-item-price">$5.178</div>
+        </div>
+        </a>
+
+        <a href="./cataloglist.html" style="text-decoration: none;">
+        <div class="catalog-product-item">
+            <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
+            <div class="catalog-product-item-title">lounge chair</div>
+            <div class="catalog-product-item-price">$5.178</div>
+        </div>
+        </a>
+
+        <a href="./cataloglist.html" style="text-decoration: none;">
+        <div class="catalog-product-item">
+            <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/sam-moghadam-khamseh-ofxbaFNFNmo-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
+            <div class="catalog-product-item-title">lounge chair</div>
+            <div class="catalog-product-item-price">$5.178</div>
+        </div>
+        </a>
+
+        <a href="./cataloglist.html" style="text-decoration: none;">
+        <div class="catalog-product-item">
+            <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/engin-akyurt-bbbKzTmY2Gg-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
+            <div class="catalog-product-item-title">lounge chair</div>
+            <div class="catalog-product-item-price">$5.178</div>
+        </div>
+        </a>
+
+        <a href="./cataloglist.html" style="text-decoration: none;">
+        <div class="catalog-product-item">
+            <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/eugene-chystiakov-3neSwyntbQ8-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
+            <div class="catalog-product-item-title">lounge chair</div>
+            <div class="catalog-product-item-price">$5.178</div>
+        </div>
+        </a>
+
+        <a href="./cataloglist.html" style="text-decoration: none;">
+        <div class="catalog-product-item">
+            <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/hal-gatewood-Vfml26Iy4mI-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
+            <div class="catalog-product-item-title">lounge chair</div>
+            <div class="catalog-product-item-price">$5.178</div>
+        </div>
+        </a>
+
+        <a href="./cataloglist.html" style="text-decoration: none;">
+        <div class="catalog-product-item">
+            <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
+            <div class="catalog-product-item-title">lounge chair</div>
+            <div class="catalog-product-item-price">$5.178</div>
+        </div>
+        </a>
+
+        <a href="./cataloglist.html" style="text-decoration: none;">
+        <div class="catalog-product-item">
+            <div class="catalog-product-item-thumbnail" style="background: url('./imgs/chair/sam-moghadam-khamseh-ofxbaFNFNmo-unsplash-removebg-preview.png');background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
+            <div class="catalog-product-item-title">lounge chair</div>
+            <div class="catalog-product-item-price">$5.178</div>
+        </div>
+        </a>
+
+
+    </section>
+
+
+<!-- ...... -->
     <footer>
 
         <section class="newsletters">

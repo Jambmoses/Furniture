@@ -26,12 +26,12 @@
         <div class="login-section" style="overflow-y: auto;overflow-x: hidden;">
             <form action="" method="post">
                 <!-- <div class="heading">log in</div> -->
-                <span class="login-input"><input type="email" placeholder="First name" name="" id=""></span>
-                <span class="login-input"><input type="text" placeholder="last name" name="" id=""></span>
+                <span class="login-input"><input type="text" placeholder="First Name" name="firstname" id=""></span>
+                <span class="login-input"><input type="text" placeholder="Last Name" name="lastname" id=""></span>
                 
-                    <select class="login-input" name="" id="" style="outline: none;color: grey;padding-left: 10px; border: 1px solid rgba(128, 128, 128, 0.521)">
-                        <option value="">male</option>
-                        <option value="">female</option>
+                    <select class="login-input" name="gender" id="" style="outline: none;color: grey;padding-left: 10px; border: 1px solid rgba(128, 128, 128, 0.521)">
+                        <option value="">Male</option>
+                        <option value="">Female</option>
                     </select>
                 <span class="login-input"><input style="border: 0px solid transparent;" type="date" placeholder="date of birth" name="" id=""></span>
 <!--                 <span style="width: 100%; display: flex;flex-direction: row;justify-content: space-between;margin-top: 20px;">
@@ -41,21 +41,21 @@
                     </select>
                     <span style="display: inline-block;"><input style="height: 16px; outline: none; color: grey; width: 230px; border: 1px solid rgba(128, 128, 128, 0.521);padding-left: 20px;" type="text" placeholder="phone" name="" id=""></span>
                 </span> -->
-                <span class="login-input"><input type="email" placeholder="email" name="" id=""></span>
+                <span class="login-input"><input type="email" placeholder="Email" name="email" id=""></span>
 
                 <span class="login-input">
-                    <input type="text" placeholder="country" name="" id="">
+                    <input type="text" placeholder="Country" name="country" id="">
                 </span>
 
                 <span class="login-input">
-                    <input type="text" placeholder="city" name="" id="">
+                    <input type="text" placeholder="City" name="city" id="">
                 </span>
 
                 <span class="login-input">
-                    <input type="password" placeholder="Password" name="" id="">
+                    <input type="password" placeholder="Password" name="password" id="">
                 </span>
 
-                <span class="login-input"><input type="password" placeholder="Confirm Password" name="" id=""></span>
+                <span class="login-input"><input type="password" placeholder="Confirm Password" name="confirmpassword" id=""></span>
                 
                 <button class="login-btn" type="submit" style="width: 100%;">sign up</button>
                 <!-- <a href="#" class="login-forgot">forgot password !</a> -->
@@ -66,5 +66,7 @@
 <script src="./jquery/jQuery v3.4.1.js"></script>
 <script>
     $('#signup-title').slideUp("slow").slideDown("slow");
+
+    setInterval($('#signup-title').slideUp("slow").slideDown("slow"),1000);
 </script>
 </html>

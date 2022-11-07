@@ -17,13 +17,28 @@
                 <div class="nav-mobile-menu" style="background-color: transparent;margin-right: 3%; width: 40px;height: 40px;margin-top: 5px;border-radius: 10px; display: flex;flex-direction: column;justify-content: center;align-items: center;"><i class="fa fa-bars"></i></div>
         </div>
 
+        <div class="nav-top-search">
+            <form action="" method="post">
+                <span>
+                    <input type="search" name="search" placeholder="Search For Cough" id=""/>
+                    <button><i class="fa fa-search"></i></button>
+                </span>
+            </form>
+            <div>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+
         <nav class="nav-pc">
             <div class="logo-container">
                 <span class="nav-logo">Fog</span>
             </div>
 
             <div class="nav-note-section">
-                <span class="nav-note">
+                <span class="nav-note" id="header-note">
                    Furniture that <br> everyone <br> loves 
                 </span>
             </div>
@@ -34,8 +49,9 @@
                 <a href="./catalog.html" class="nav-link">furniture</a>
                 <!-- <a href="" class="nav-link">blog</a> -->
                 <a href="./contact.html" class="nav-link">contact us</a>
-                <a href="./login.html" class="nav-btn" style="border-radius: 1px;">login</a>
+                <a href="./login.html" class="nav-btn" style="border-radius: 1px; color: rgb(173, 247, 247);">login</a>
                 <a href="./signup.html" class="nav-btn" style="border-radius: 1px; color: rgb(173, 247, 247);">signup</a>
+                <a href="./cart.html" style="color: white; font-size: 13px;margin-left: 10px;"><i class="fa fa-shopping-cart"><sup style="color: rgb(240, 240, 240);font-size: 11px; font-weight: 500; padding-left: 5px; font-family: sans-serif;">10</sup></i></a>
             </div>
         </nav>
 
@@ -132,11 +148,12 @@
                                 <input class="product-dash-aside-display-content-item-price-min-price" type="text" placeholder="$0" name="" id="">
                                 <!-- <span class="product-dash-aside-display-content-item-price-max-price">$999</span> -->
                                 <input class="product-dash-aside-display-content-item-price-max-price" type="text" name="" placeholder="$999" id="">
-                                <span class="product-dash-aside-display-content-item-price-search-btn" style="padding-top: 5px;">search</span>
-                                <span class="product-dash-aside-display-content-item-price-range">
-                            </div class="product-dash-aside-display-content-item-range">
+                                <span class="product-dash-aside-display-content-item-price-search-btn" style="padding-top: 5px;">filter</span>
+                                <span class="product-dash-aside-display-content-item-price-range product-dash-aside-display-content-item-range">
+                            <!-- </div class="product-dash-aside-display-content-item-range "> -->
                                 <input class="product-dash-aside-display-content-item-range-input" style="margin-left: 15px;margin-top: 20px; width: 80%; height: 15px;" type="range" name="" id="" value="0" maxlength="100">
                             </span>
+                            </div>
                         </span>
                     </div>
 
@@ -408,7 +425,7 @@
                     </div>
                     <div class="product-dash-product-cart-contain">
                         <span class="product-dash-product-cart-wishlist"><i class="fa fa-heart"></i></span>
-                        <span class="product-dash-product-cart-addcart">add to cart</span>
+                        <span class="product-dash-product-cart-addcart" style="color: orangered; font-weight: 700;">remove from cart</span>
                         <span class="product-dash-product-cart-heart"><i class="fa fa-heart"></i></span>
                     </div>
                 </div>
@@ -593,7 +610,7 @@
                 <span class="footer-shortcut-item-subtitle"><i class="fa fa-map"></i> fresh water</span>
                 <span class="footer-shortcut-item-link">45 grand central terminal new york.</span>
                 <span class="footer-shortcut-item-link"><i class="fa fa-phone"></i> +256708093144</span>
-                <span class="footer-shortcut-item-link"><i class="fa fa-mail"></i> jambcareer@gmail.com</span>
+                <span class="footer-shortcut-item-link"><i class="fa fa-message"></i> jambcareer@gmail.com</span>
             </div>
         </section>
         <div id="contact" class="footer-bottom-copyright">
@@ -601,4 +618,11 @@
         </div>
     </footer>
 </body>
+
+<script src="./jquery/jQuery v3.4.1.js"></script>
+<script>
+    $('#header-note').slideUp("slow").slideDown("slow");
+
+    setInterval(()=>{$('#header-note').slideUp(3000).slideDown(4000)},300000);
+</script>
 </html>

@@ -117,6 +117,11 @@ background-color: white;
     flex-direction: row;
 }
 
+.catalog-filter-sec input{
+    outline: none;
+    margin-right: 10px;
+}
+
 .catalog-filter-sec select{
     color: grey;
     font-weight: bold;
@@ -127,6 +132,16 @@ background-color: white;
     outline: none;
     border: none;
     width: 150px;
+    background-color: transparent;
+    outline: none;
+}
+
+.catalog-filter-sec select option{
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: left;
     background-color: transparent;
 }
 
@@ -147,7 +162,6 @@ background-color: white;
     outline: none;
     height: 3px;
     width: 150px;
-    background-color: red;
 
 }
 
