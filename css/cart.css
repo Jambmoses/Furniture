@@ -1,0 +1,24 @@
+.cart-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.cart-details{
+    background-color: lightblue;
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    padding-right: 450px;
+    z-index: 1;
+}
+
+.cart-checkout{
+    display: block;
+    position: fixed;
+    background-color: lightgray;
+    width: 400px;
+    right: 0px;
+    top: 0px;
+    bottom: 0vh;
+    z-index: 20;
+}
