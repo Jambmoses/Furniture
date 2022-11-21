@@ -5,16 +5,286 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fog Furniture | Shopping Cart</title>
-    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/cart.css" />
-</head>
-<body>
-    <main class="cart-container">
-        <section class="cart-details">
-            wem
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fog Furniture | About us</title>
+        <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/cart.css">
+        <link rel="stylesheet" href="./css/footer.css">
+    
+        <style>
+            .nav-link{
+                color: rgb(133, 133, 133);
+            }
+            .nav-link-active{
+                color: burlywood;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="nav-mobile">
+                <div class="nav-mobile-logo" style="margin-top: 1.5%; display: inline-block;margin-left: 3%; font-size: 20px;font-family: sans-serif;">fogo</div>
+                <div class="nav-mobile-menu" style="background-color: transparent;margin-right: 3%; width: 40px;height: 40px;margin-top: 5px;border-radius: 10px; display: flex;flex-direction: column;justify-content: center;align-items: center;"><i class="fa fa-bars"></i></div>
+            </div>
+    
+            <div class="nav-top-search" style="background-color: black; display: flex;flex-direction: row;">
+                <form action="" method="post">
+                    <span>
+                        <input type="search" name="search" placeholder="Search For Cough" id=""/>
+                        <button><i class="fa fa-search"></i></button>
+                    </span>
+                </form>
+                <div>
+                    <a href="" style="text-decoration: none;"><i class="fab fa-twitter" style="color: lightgray;"></i></a>
+                    <a href="" style="text-decoration: none;"><i class="fab fa-facebook" style="color: lightgray;"></i></a>
+                    <a href="" style="text-decoration: none;"><i class="fab fa-instagram" style="color: lightgray;"></i></a>
+                    <a href="" style="text-decoration: none;"><i class="fab fa-linkedin" style="color: lightgray;"></i></a>
+                </div>
+            </div>
+    
+            <nav class="nav-pc" style="background-color: black;padding: 20px 3%;">
+                <div class="logo-container">
+                    <span class="catalog-title" style="text-transform: capitalize; background-color: rgba(211, 211, 211, 0.158);display: flex;flex-direction: column;justify-content: center;align-items: center; height: 50px;width: 50px; border-radius: 50%;padding: 0px;">fog</span>
+                </div>
+                
+                <div class="nav" style="padding-top: 15px;">
+                    <a href="./index.html" class="nav-link">home</a>
+                    <a href="./about.html" class="nav-link">about us</a>
+                    <a href="./catalog.html" class="nav-link">furniture</a>
+                    <!-- <a href="" class="nav-link">blog</a> -->
+                    <a href="./contact.html" class="nav-link">contact us</a>
+                    <a href="./login.html" class="nav-btn" style="border-radius: 1px; color: rgb(173, 247, 247);">login</a>
+                    <a href="./signup.html" class="nav-btn" style="border-radius: 1px; color: rgb(173, 247, 247);">signup</a>
+                    <a href="./cart.html" style="color: grey; font-size: 13px;margin-left: 10px;"><i class="fa fa-shopping-cart nav-link-active"><sup style="color: white;font-size: 11px; font-weight: 500; padding-left: 5px; font-family: sans-serif;">10</sup></i></a>
+                </div>
+            </nav>
         </section>
-        <aside class="cart-checkout"></aside>
-    </main>
+<!--  -->
+
+<section class="main-cart-section">
+    <section class="main-cart-section-main">
+        <h3 class="main-cart-section-main-heading">your cart</h3>
+        <div class="main-cart-section-main-container">
+            <div class="main-cart-section-main-container-header">
+                <span class="main-cart-section-main-container-header-title">product</span>
+                <span class="main-cart-section-main-container-header-title">price</span>
+                <span class="main-cart-section-main-container-header-title">quantity</span>
+                <span class="main-cart-section-main-container-header-title">total</span>
+                <span class="main-cart-section-main-container-header-title"></span>
+            </div>
+
+            <!-- items  -->
+            <div class="main-cart-section-main-container-header" style="height: 100px;">
+                <span class="main-cart-section-main-container-header-title">
+                    <div style="background: url('./imgs/chair/engin-akyurt-bbbKzTmY2Gg-unsplash-removebg-preview.png'); background-repeat: no-repeat; background-position: center; background-size: contain; width: 100px; height: 100px; background-color: transparent;"></div>
+                </span>
+                <span class="main-cart-section-main-container-header-title" style="display: flex; flex-direction: column; justify-content: center;">
+                    analog magame rack
+                </span>
+                <span class="main-cart-section-main-container-header-title" style="display: flex; flex-direction: column; justify-content: center;">
+                    $240
+                </span>
+                <span class="main-cart-section-main-container-header-title" style="display: flex; flex-direction: column; justify-content: center;">
+                    <span style="display: flex;flex-direction: row; width: 50px;background-color: lightblue; justify-content: space-between; background-color: lightgray;border-radius: 50px;padding: 1px; font-size: 13px;">
+                        <i class="fa fa-minus" style="display: flex;flex-direction: column;justify-content: center; align-items: center; background-color: lightgray;border-radius: 50%;font-size: 8px; width: 15px; height: 15px; "></i>
+                         <span style="font-size: 11px;padding-top: 2px; font-weight: bold;">14</span>
+                         <i class="fa fa-add" style="display: flex;flex-direction: column;justify-content: center; align-items: center; background-color: lightgray;border-radius: 50%;font-size: 8px; width: 15px; height: 15px;"></i>
+                    </span>
+                </span>
+                <span class="main-cart-section-main-container-header-title" style="display: flex; flex-direction: column; justify-content: center;">
+                    <i class="fa fa-close" style="display: flex;flex-direction: column;justify-content: center; align-items: center; background-color: lightgray;border-radius: 50%;font-size: 8px; width: 15px; height: 15px;"></i>
+                </span>
+            </div>
+
+            <!-- items  -->
+            <div class="main-cart-section-main-container-header" style="height: 100px;">
+                <span class="main-cart-section-main-container-header-title">
+                    <div style="background: url('./imgs/chair/hal-gatewood-Vfml26Iy4mI-unsplash-removebg-preview.png'); background-repeat: no-repeat; background-position: center; background-size: contain; width: 100px; height: 100px; background-color: transparent;"></div>
+                </span>
+                <span class="main-cart-section-main-container-header-title" style="display: flex; flex-direction: column; justify-content: center;">
+                    analog magame rack
+                </span>
+                <span class="main-cart-section-main-container-header-title" style="display: flex; flex-direction: column; justify-content: center;">
+                    $240
+                </span>
+                <span class="main-cart-section-main-container-header-title" style="display: flex; flex-direction: column; justify-content: center;">
+                    <span style="display: flex;flex-direction: row; width: 50px;background-color: lightblue; justify-content: space-between; background-color: lightgray;border-radius: 50px;padding: 1px; font-size: 13px;">
+                        <i class="fa fa-minus" style="display: flex;flex-direction: column;justify-content: center; align-items: center; background-color: lightgray;border-radius: 50%;font-size: 8px; width: 15px; height: 15px; "></i>
+                         <span style="font-size: 11px;padding-top: 2px; font-weight: bold;">14</span>
+                         <i class="fa fa-add" style="display: flex;flex-direction: column;justify-content: center; align-items: center; background-color: lightgray;border-radius: 50%;font-size: 8px; width: 15px; height: 15px;"></i>
+                    </span>
+                </span>
+                <span class="main-cart-section-main-container-header-title" style="display: flex; flex-direction: column; justify-content: center;">
+                    <i class="fa fa-close" style="display: flex;flex-direction: column;justify-content: center; align-items: center; background-color: lightgray;border-radius: 50%;font-size: 8px; width: 15px; height: 15px;"></i>
+                </span>
+            </div>
+
+
+            <!-- items  -->
+            <div class="main-cart-section-main-container-header" style="height: 100px;">
+                <span class="main-cart-section-main-container-header-title">
+                    <div style="background: url('./imgs/chair/sam-moghadam-khamseh-ofxbaFNFNmo-unsplash-removebg-preview.png'); background-repeat: no-repeat; background-position: center; background-size: contain; width: 100px; height: 100px; background-color: transparent;"></div>
+                </span>
+                <span class="main-cart-section-main-container-header-title" style="display: flex; flex-direction: column; justify-content: center;">
+                    analog magame rack
+                </span>
+                <span class="main-cart-section-main-container-header-title" style="display: flex; flex-direction: column; justify-content: center;">
+                    $240
+                </span>
+                <span class="main-cart-section-main-container-header-title" style="display: flex; flex-direction: column; justify-content: center;">
+                    <span style="display: flex;flex-direction: row; width: 50px;background-color: lightblue; justify-content: space-between; background-color: lightgray;border-radius: 50px;padding: 1px; font-size: 13px;">
+                        <i class="fa fa-minus" style="display: flex;flex-direction: column;justify-content: center; align-items: center; background-color: lightgray;border-radius: 50%;font-size: 8px; width: 15px; height: 15px; "></i>
+                         <span style="font-size: 11px;padding-top: 2px; font-weight: bold;">14</span>
+                         <i class="fa fa-add" style="display: flex;flex-direction: column;justify-content: center; align-items: center; background-color: lightgray;border-radius: 50%;font-size: 8px; width: 15px; height: 15px;"></i>
+                    </span>
+                </span>
+                <span class="main-cart-section-main-container-header-title" style="display: flex; flex-direction: column; justify-content: center;">
+                    <i class="fa fa-close" style="display: flex;flex-direction: column;justify-content: center; align-items: center; background-color: lightgray;border-radius: 50%;font-size: 8px; width: 15px; height: 15px;"></i>
+                </span>
+            </div>
+
+            <!-- items  -->
+            <div class="main-cart-section-main-container-header" style="height: 100px;">
+                <span class="main-cart-section-main-container-header-title">
+                    <div style="background: url('./imgs/chair/eugene-chystiakov-3neSwyntbQ8-unsplash-removebg-preview.png'); background-repeat: no-repeat; background-position: center; background-size: contain; width: 100px; height: 100px; background-color: transparent;"></div>
+                </span>
+                <span class="main-cart-section-main-container-header-title" style="display: flex; flex-direction: column; justify-content: center;">
+                    analog magame rack
+                </span>
+                <span class="main-cart-section-main-container-header-title" style="display: flex; flex-direction: column; justify-content: center;">
+                    $240
+                </span>
+                <span class="main-cart-section-main-container-header-title" style="display: flex; flex-direction: column; justify-content: center;">
+                    <span style="display: flex;flex-direction: row; width: 50px;background-color: lightblue; justify-content: space-between; background-color: lightgray;border-radius: 50px;padding: 1px; font-size: 13px;">
+                        <i class="fa fa-minus" style="display: flex;flex-direction: column;justify-content: center; align-items: center; background-color: lightgray;border-radius: 50%;font-size: 8px; width: 15px; height: 15px; "></i>
+                         <span style="font-size: 11px;padding-top: 2px; font-weight: bold;">14</span>
+                         <i class="fa fa-add" style="display: flex;flex-direction: column;justify-content: center; align-items: center; background-color: lightgray;border-radius: 50%;font-size: 8px; width: 15px; height: 15px;"></i>
+                    </span>
+                </span>
+                <span class="main-cart-section-main-container-header-title" style="display: flex; flex-direction: column; justify-content: center;">
+                    <i class="fa fa-close" style="display: flex;flex-direction: column;justify-content: center; align-items: center; background-color: lightgray;border-radius: 50%;font-size: 8px; width: 15px; height: 15px;"></i>
+                </span>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="main-cart-section-summary">
+        <div class="main-cart-section-summary-order">
+            <span class="main-cart-section-summary-order-title">Order summary</span>
+            <div class="main-cart-section-summary-order-info">
+                <div class="main-cart-section-summary-order-info-item">
+                    <span class="main-cart-section-summary-order-info-item-title">subtotal</span>
+                    <span class="main-cart-section-summary-order-info-item-data">$450</span>
+                </div>
+
+                <div class="main-cart-section-summary-order-info-item">
+                    <span class="main-cart-section-summary-order-info-item-title">shipping</span>
+                    <span class="main-cart-section-summary-order-info-item-data">free</span>
+                </div>
+
+                <div class="main-cart-section-summary-order-info-item">
+                    <span class="main-cart-section-summary-order-info-item-title">estimitated price</span>
+                    <span class="main-cart-section-summary-order-info-item-data"></span>
+                </div>
+
+            </div>
+
+
+            <div class="main-cart-section-summary-order-total">
+                <span class="main-cart-section-summary-order-total-title">Total</span>
+                <span class="main-cart-section-summary-order-total-price">$418</span>
+            </div>
+        </div>
+        <div class="main-cart-section-summary-order-btn">proceed</div>
+
+
+        <div>
+            <h3>card details</h3>
+            <div>
+                <span>select card type</span>
+                <div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <label for="card">card number</label>
+            <input type="text">
+            <label for="card">cvv </label>
+            <input type="text">
+        </div>
+    </section>
+</section>
+
+<!-- ...... -->
+<footer>
+
+    <section class="newsletters">
+        <div class="newsletters-note">
+            <h3>newsletter</h3>
+            <span>
+                nullam condimenum varius ipsum
+                nullam condimenum varius ipsum
+                nullam condimenum varius ipsum
+                nullam condimenum varius ipsum
+                
+            </span>
+        </div>
+
+        <div class="newsletters-subscribers">
+            <form action="" method="post">
+                <input type="text" name="subscriber" id="" placeholder="enter your email address">
+                <button type="submit">subscribe</button>
+            </form>
+        </div>
+    </section>
+
+
+    <section class="footer-shortcut">
+        <div class="footer-shortcut-item">
+            <span class="footer-shortcut-item-title">information</span>
+            <span class="footer-shortcut-item-link">contact us</span>
+            <span class="footer-shortcut-item-link">about us</span>
+            <span class="footer-shortcut-item-link">delivery information</span>
+            <span class="footer-shortcut-item-link">privacy policy</span>
+            <span class="footer-shortcut-item-link">terms & conditions</span>
+        </div>
+        
+        <div class="footer-shortcut-item">
+            <span class="footer-shortcut-item-title">our services</span>
+            <span class="footer-shortcut-item-link">my account</span>
+            <span class="footer-shortcut-item-link">order history</span>
+            <span class="footer-shortcut-item-link">wishlist</span>
+            <span class="footer-shortcut-item-link">newsletter</span>
+            <span class="footer-shortcut-item-link">returns</span>
+        </div>
+
+        <div class="footer-shortcut-item">
+            <span class="footer-shortcut-item-title">recent news</span>
+            <span class="footer-shortcut-item-subtitle">nullam condimenum varius ipsum</span>
+            <span class="footer-shortcut-item-link"><i class="fa fa-calendar"></i> 15 Aug 2022</span>
+            <span class="footer-shortcut-item-subtitle">nullam condimenum varius ipsum</span>
+            <span class="footer-shortcut-item-link"><i class="fa fa-calendar"></i> 15 Aug 2022</span>
+        </div>
+
+        <div class="footer-shortcut-item">
+            <span class="footer-shortcut-item-title">get in touch</span>
+            <span class="footer-shortcut-item-subtitle"><i class="fa fa-map"></i> fresh water</span>
+            <span class="footer-shortcut-item-link">45 grand central terminal new york.</span>
+            <span class="footer-shortcut-item-link"><i class="fa fa-phone"></i> +256708093144</span>
+            <span class="footer-shortcut-item-link"><i class="fa fa-mail"></i> jambcareer@gmail.com</span>
+        </div>
+    </section>
+    <div id="contact" class="footer-bottom-copyright">
+         copy right all rights reserved <span>sara mineral water</span> 2018 - 2022
+    </div>
+</footer>
 </body>
 </html>
